@@ -2,6 +2,12 @@
 # 基于UDP协议的数据传输 OC版本
 ### Swift版本 ：https://github.com/lfb-cd/UDPTrans-Swift
 
+## 说明
+
+选择开源的原因有两个：
+* 是因为马上大四了，准备暑假去找实习
+* 另外就是设备消失的逻辑不太好，希望有高人能指导。
+
 目前实现了扫描界面，发现逻辑以及简单的消息发送。
 
 数据文件传输待完善。
@@ -13,7 +19,7 @@
 
 也可以到我[简书文章](http://www.jianshu.com/users/e78a977ccaeb/latest_articles)中查看，有什么问题欢迎[联系我](http://weibo.com/lfbWb)
 
-## 建议真机调试
+## 建议真机调试！
 ##### 我用的是ipad和5s
 效果浏览：
 

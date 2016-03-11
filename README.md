@@ -13,6 +13,8 @@
 
 也可以到我[简书文章](http://www.jianshu.com/users/e78a977ccaeb/latest_articles)中查看，有什么问题欢迎[联系我](http://weibo.com/lfbWb)
 
+##建议真机调试
+
 效果浏览：
 
 ![image](https://github.com/lfb-cd/gif/blob/master/UDPTrans2016-03-11%2017_15_20.gif)

@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		676292031C918FA9008FB038 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 676292021C918FA9008FB038 /* main.m */; };
+		676292061C918FA9008FB038 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 676292051C918FA9008FB038 /* AppDelegate.m */; };
+		676292091C918FA9008FB038 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 676292081C918FA9008FB038 /* ViewController.m */; };
+		6762920C1C918FA9008FB038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6762920A1C918FA9008FB038 /* Main.storyboard */; };
+		6762920E1C918FA9008FB038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6762920D1C918FA9008FB038 /* Assets.xcassets */; };
+		676292111C918FA9008FB038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6762920F1C918FA9008FB038 /* LaunchScreen.storyboard */; };
+		6762921C1C918FD5008FB038 /* IPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 676292191C918FD5008FB038 /* IPHelper.m */; };
+		6762921D1C918FD5008FB038 /* NetWorkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6762921B1C918FD5008FB038 /* NetWorkHelper.m */; };
+		676292201C918FE2008FB038 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6762921F1C918FE2008FB038 /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		676292261C9190AC008FB038 /* UDPTransViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 676292241C9190AC008FB038 /* UDPTransViewController.m */; };
+		676292271C9190AC008FB038 /* UDPTransViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 676292251C9190AC008FB038 /* UDPTransViewController.xib */; };
+		676292291C919113008FB038 /* SkyBg01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 676292281C919113008FB038 /* SkyBg01@2x.png */; };
+		6762922E1C91914B008FB038 /* userOfSelf.png in Resources */ = {isa = PBXBuildFile; fileRef = 6762922B1C91914B008FB038 /* userOfSelf.png */; };
+		6762922F1C91914B008FB038 /* userOfSelf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6762922C1C91914B008FB038 /* userOfSelf@2x.png */; };
+		676292301C91914B008FB038 /* userOfSelf@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6762922D1C91914B008FB038 /* userOfSelf@3x.png */; };
+		676292331C9191A1008FB038 /* DeveiceDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 676292321C9191A1008FB038 /* DeveiceDataModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		676291FE1C918FA9008FB038 /* UDPTrans-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UDPTrans-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		676292021C918FA9008FB038 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		676292041C918FA9008FB038 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		676292051C918FA9008FB038 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		676292071C918FA9008FB038 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		676292081C918FA9008FB038 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6762920B1C918FA9008FB038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6762920D1C918FA9008FB038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		676292101C918FA9008FB038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		676292121C918FA9008FB038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676292181C918FD5008FB038 /* IPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPHelper.h; sourceTree = "<group>"; };
+		676292191C918FD5008FB038 /* IPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPHelper.m; sourceTree = "<group>"; };
+		6762921A1C918FD5008FB038 /* NetWorkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkHelper.h; sourceTree = "<group>"; };
+		6762921B1C918FD5008FB038 /* NetWorkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkHelper.m; sourceTree = "<group>"; };
+		6762921E1C918FE2008FB038 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		6762921F1C918FE2008FB038 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		676292231C9190AC008FB038 /* UDPTransViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPTransViewController.h; sourceTree = "<group>"; };
+		676292241C9190AC008FB038 /* UDPTransViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPTransViewController.m; sourceTree = "<group>"; };
+		676292251C9190AC008FB038 /* UDPTransViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UDPTransViewController.xib; sourceTree = "<group>"; };
+		676292281C919113008FB038 /* SkyBg01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SkyBg01@2x.png"; sourceTree = "<group>"; };
+		6762922B1C91914B008FB038 /* userOfSelf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userOfSelf.png; sourceTree = "<group>"; };
+		6762922C1C91914B008FB038 /* userOfSelf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userOfSelf@2x.png"; sourceTree = "<group>"; };
+		6762922D1C91914B008FB038 /* userOfSelf@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userOfSelf@3x.png"; sourceTree = "<group>"; };
+		676292311C9191A1008FB038 /* DeveiceDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeveiceDataModel.h; sourceTree = "<group>"; };
+		676292321C9191A1008FB038 /* DeveiceDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeveiceDataModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		676291FB1C918FA9008FB038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		676291F51C918FA9008FB038 = {
+			isa = PBXGroup;
+			children = (
+				676292001C918FA9008FB038 /* UDPTrans-OC */,
+				676291FF1C918FA9008FB038 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		676291FF1C918FA9008FB038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				676291FE1C918FA9008FB038 /* UDPTrans-OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		676292001C918FA9008FB038 /* UDPTrans-OC */ = {
+			isa = PBXGroup;
+			children = (
+				676292041C918FA9008FB038 /* AppDelegate.h */,
+				676292051C918FA9008FB038 /* AppDelegate.m */,
+				676292071C918FA9008FB038 /* ViewController.h */,
+				676292081C918FA9008FB038 /* ViewController.m */,
+				6762920A1C918FA9008FB038 /* Main.storyboard */,
+				676292231C9190AC008FB038 /* UDPTransViewController.h */,
+				676292241C9190AC008FB038 /* UDPTransViewController.m */,
+				676292251C9190AC008FB038 /* UDPTransViewController.xib */,
+				676292351C919DD7008FB038 /* Model */,
+				676292221C91900C008FB038 /* Helper */,
+				676292211C918FF2008FB038 /* AsyncUdpSocket */,
+				6762920D1C918FA9008FB038 /* Assets.xcassets */,
+				6762922A1C91911F008FB038 /* Resource */,
+				6762920F1C918FA9008FB038 /* LaunchScreen.storyboard */,
+				676292121C918FA9008FB038 /* Info.plist */,
+				676292011C918FA9008FB038 /* Supporting Files */,
+			);
+			path = "UDPTrans-OC";
+			sourceTree = "<group>";
+		};
+		676292011C918FA9008FB038 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				676292021C918FA9008FB038 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		676292211C918FF2008FB038 /* AsyncUdpSocket */ = {
+			isa = PBXGroup;
+			children = (
+				6762921E1C918FE2008FB038 /* AsyncUdpSocket.h */,
+				6762921F1C918FE2008FB038 /* AsyncUdpSocket.m */,
+			);
+			name = AsyncUdpSocket;
+			sourceTree = "<group>";
+		};
+		676292221C91900C008FB038 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				676292181C918FD5008FB038 /* IPHelper.h */,
+				676292191C918FD5008FB038 /* IPHelper.m */,
+				6762921A1C918FD5008FB038 /* NetWorkHelper.h */,
+				6762921B1C918FD5008FB038 /* NetWorkHelper.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		6762922A1C91911F008FB038 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				676292281C919113008FB038 /* SkyBg01@2x.png */,
+				6762922B1C91914B008FB038 /* userOfSelf.png */,
+				6762922C1C91914B008FB038 /* userOfSelf@2x.png */,
+				6762922D1C91914B008FB038 /* userOfSelf@3x.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		676292351C919DD7008FB038 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				676292311C9191A1008FB038 /* DeveiceDataModel.h */,
+				676292321C9191A1008FB038 /* DeveiceDataModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		676291FD1C918FA9008FB038 /* UDPTrans-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676292151C918FA9008FB038 /* Build configuration list for PBXNativeTarget "UDPTrans-OC" */;
+			buildPhases = (
+				676291FA1C918FA9008FB038 /* Sources */,
+				676291FB1C918FA9008FB038 /* Frameworks */,
+				676291FC1C918FA9008FB038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UDPTrans-OC";
+			productName = "UDPTrans-OC";
+			productReference = 676291FE1C918FA9008FB038 /* UDPTrans-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		676291F61C918FA9008FB038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lifubing;
+				TargetAttributes = {
+					676291FD1C918FA9008FB038 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 676291F91C918FA9008FB038 /* Build configuration list for PBXProject "UDPTrans-OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 676291F51C918FA9008FB038;
+			productRefGroup = 676291FF1C918FA9008FB038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				676291FD1C918FA9008FB038 /* UDPTrans-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		676291FC1C918FA9008FB038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676292271C9190AC008FB038 /* UDPTransViewController.xib in Resources */,
+				676292111C918FA9008FB038 /* LaunchScreen.storyboard in Resources */,
+				6762920E1C918FA9008FB038 /* Assets.xcassets in Resources */,
+				6762922E1C91914B008FB038 /* userOfSelf.png in Resources */,
+				6762920C1C918FA9008FB038 /* Main.storyboard in Resources */,
+				676292301C91914B008FB038 /* userOfSelf@3x.png in Resources */,
+				6762922F1C91914B008FB038 /* userOfSelf@2x.png in Resources */,
+				676292291C919113008FB038 /* SkyBg01@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		676291FA1C918FA9008FB038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676292091C918FA9008FB038 /* ViewController.m in Sources */,
+				6762921D1C918FD5008FB038 /* NetWorkHelper.m in Sources */,
+				676292061C918FA9008FB038 /* AppDelegate.m in Sources */,
+				676292201C918FE2008FB038 /* AsyncUdpSocket.m in Sources */,
+				676292261C9190AC008FB038 /* UDPTransViewController.m in Sources */,
+				676292331C9191A1008FB038 /* DeveiceDataModel.m in Sources */,
+				6762921C1C918FD5008FB038 /* IPHelper.m in Sources */,
+				676292031C918FA9008FB038 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6762920A1C918FA9008FB038 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6762920B1C918FA9008FB038 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6762920F1C918FA9008FB038 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				676292101C918FA9008FB038 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		676292131C918FA9008FB038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		676292141C918FA9008FB038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		676292161C918FA9008FB038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "UDPTrans-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lfb.com.UDPTrans-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		676292171C918FA9008FB038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "UDPTrans-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lfb.com.UDPTrans-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		676291F91C918FA9008FB038 /* Build configuration list for PBXProject "UDPTrans-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676292131C918FA9008FB038 /* Debug */,
+				676292141C918FA9008FB038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		676292151C918FA9008FB038 /* Build configuration list for PBXNativeTarget "UDPTrans-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676292161C918FA9008FB038 /* Debug */,
+				676292171C918FA9008FB038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 676291F61C918FA9008FB038 /* Project object */;
+}
